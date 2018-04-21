@@ -1,10 +1,10 @@
 function ContactController() {
-  this.name = "John Aldwood";
-  this.email = "jaldy@gmail.com";
-  this.phone = "63183770";
   var vm = this;
+  vm.name = "John Aldwood";
+  vm.email = "jaldy@gmail.com";
+  vm.phone = "63183770";
 
-  this.changeName = function() {
+  vm.changeName = function() {
     vm.name = "John Butcher Aldwood";
   }
 }
